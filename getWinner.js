@@ -25,7 +25,7 @@ function getWinner() {
 
     for (i = 0 ; i < 3; i++) {
         if ((cells[0][i] === cells[1][i]) && (cells[1][i] === cells[2][i]) && cells[0][i] !== undefined) {
-            console.log('cell[1][i] ' + cells[1][i]);
+            console.log('cells[1][i] ' + cells[1][i]);
             console.log('победил столбец ' + i + ' ' + cells[0][i]);
             return cells[0][i];
         }
